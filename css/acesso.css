@@ -1,0 +1,117 @@
+body {
+    overflow: hidden;
+}
+
+/* Configurações tela de site em construção */
+
+.alerta {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+
+#exclamacao {
+    width: 20%;
+}
+
+.DriveOn h1 {
+    font-size: 2vw;
+    color: #5711A5;
+}
+
+.DriveOn h5 {
+    font-size: 1vw;
+    color: rgb(143, 143, 143);
+}
+
+#botaoHome {
+    display: flex;
+    background: linear-gradient(to right, #527AFC, #31D3FE);
+    color: white;
+    font-weight: bold;
+    font-size: 1.3vw;
+    width: 10%;
+    height: 2.5vw;
+    border-radius: 0.4vw;
+    cursor: pointer;
+    transition: 0.2s;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Configurações das telas de login e cadastro */
+
+#form button:hover,
+#botaoHome:hover {
+    transform: scale(1.1);
+    color: #9e48ff;
+}
+
+.telaLogin {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+#form {
+    background: linear-gradient(to right, #57199e, #19599e, #57199e);
+    width: 30%;
+    border-radius: 1vw;
+    cursor: url('../img/icones/volante.cur'), default;
+
+}
+
+#form input,
+#escolha {
+    border-radius: 0.5vw;
+    border: none;
+    margin-top: 0.8vw;
+    background-color: #f0f0f0;
+    padding: 0.5vw;
+    resize: none;
+    width: 55%;
+    font-size: 1vw;
+}
+
+#escolha {
+    width: 58.5%;
+}
+
+#form button {
+    background: linear-gradient(to right, #527AFC, #31D3FE);
+    color: white;
+    font-weight: bold;
+    font-size: 1.3vw;
+    width: 40%;
+    height: 2.5vw;
+    border-radius: 0.5vw;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1.5vw;
+    cursor: url('../img/icones/volante.cur'), default;
+}
+
+
+#form img {
+    margin-top: 5%;
+    width: 40%;
+    filter: brightness(1400%);
+}
+
+.textoAcesso {
+    color: rgba(255, 255, 255, 0.944);
+    font-size: 2vw;
+}

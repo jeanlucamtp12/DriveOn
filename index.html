@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/page.css">
+    <link rel="stylesheet" href="./css/responsive-animations.css">
+</head>
+
+<body>
+    <main class="main">
+
+        <nav class="barraNavegacao">
+
+            <img id="logo" onclick="acessarPagina('index')" src="./img/logo-teste-programador.png"></img>
+            <div class="menu-Hamburguer">&#9776;</div>
+
+            <div class="menu-items">
+                <button id="drivers" class="menu-item" onclick="acessarPagina('drivers', this)">
+                    <span>Drivers</span>
+                </button>
+                <button id="passengers" class="menu-item" onclick="acessarPagina('passengers', this)">
+                    <span>Passengers</span>
+                </button>
+                <button id="about" class="menu-item" onclick="acessarPagina('about', this)">
+                    <span>About Us</span>
+                </button>
+                <button id="contact" class="menu-item" onclick="acessarPagina('contact', this)">
+                    <span>Contact</span>
+                </button>
+            </div>
+
+            <div class="login">
+                <img src="./img/icone-login-teste-programador.png"></img>
+                <button onclick="acessarPagina('login')" id="textLogin">Log in</button>
+                <button onclick="acessarPagina('cadastro')" id="textSignUp">Sign Up</button>
+            </div>
+        </nav>
+
+
+        <section class="introducao">
+            <div id="itensIntroducao">
+                <h1 id="textoIntroducao">Start Your Workday Comfortably</h1>
+                <h5>Get in, sit back and experience the comtort of car that that you directly to your destination.
+                    Arriving work as a sardine with public transport or sweating is a thing of the past.</h5>
+                <button onclick="acessarPagina('sobre')">Discover</button>
+            </div>
+
+            <img src="./img/img-banner-teste-programador.png"></img>
+        </section>
+
+
+        <section class="guiaUso">
+
+            <div class="separador">
+                <img src="./img/linha-reta-teste-programador.png.jpg"></img>
+                <h1>How to get started?</h1>
+            </div>
+
+
+            <div class="corpoGuiaUso">
+
+                <div class="conteudoGuiaUso">
+                    <img src="./img/solucao-1-teste-programador.png"></img>
+                    <h3>Create your account</h3>
+                    <h5>Complete your account with some basic information including your home your work location and
+                        your working hours.</h5>
+                </div>
+
+                <div class="conteudoGuiaUso">
+                    <img src="./img/solucao-2-teste-programador.png"></img>
+                    <h3>Plan your journeys</h3>
+                    <h5>Open the app, click the agenda tab and enter your working hours for the coming week. Then you'll
+                        be presented with a list of our drivers.</h5>
+                </div>
+
+                <div class="conteudoGuiaUso">
+                    <img src="./img/solucao-3-teste-programador.png"></img>
+                    <h3>Meet your Driver</h3>
+                    <h5>Use our chat to get to know your match with our driver.
+                        Youll be picked up at your regular location, or agree on an alternative pick-up location.</h5>
+                </div>
+
+                <div class="conteudoGuiaUso">
+                    <img src="./img/solucao-4-teste-programador.png"></img>
+                    <h3>Enjoy your journeys</h3>
+                    <h5>Cet in, sit back and enjoy your joumey that takes you directly to your destination with some
+                        free cup of coffee from us.</h5>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="vantagensApp">
+            <img src="./img/img-fundo-teste-programador.png"></img>
+
+            <div class="corpoVantagensApp">
+
+                <img src="./img/linha-reta-teste-programador.png.jpg"></img>
+                <h5>DriveOn is a mobile carpool platform that effortlessly brings commuters together in one car.
+                    Traveling home and work will never be the same again. Our mission is to stop traffic jams and
+                    CO2 pollution as a result of inefficient car commuting.</h5>
+
+                <h4>Are you in?</h4>
+                <button>Learn more >></button>
+            </div>
+        </section>
+
+
+        <section class="missaoApp">
+
+            <div class="corpoMissaoApp">
+
+                <img src="./img/linha-reta-teste-programador.png.jpg"></img>
+                <h2>Our commitment to your safety</h2>
+
+                <h5>With every safety feature we add and every standard in the Community Guide that we uphold, we are
+                    committed to protecting you throughout the journey. Learn more about our Community Guide <span
+                        class="sublinhado"><img src="./img/linha-reta-teste-programador.png.jpg">here.</span></h5>
+
+                <button>See all safety features >></button>
+            </div>
+            <img src="./img/img-fundo-2-teste-programador.png"></img>
+        </section>
+
+        <section class="infoDownload">
+
+            <img src="./img/img-fundo-4-teste-programador.png"></img>
+
+            <div class="corpoDownload">
+
+                <img src="./img/linha-reta-teste-programador.png.jpg" id="separadorDownload"></img>
+                <h5>Download the DriveOn application to get more benefits and experience</h5>
+
+                <div class="botoesDownload">
+                    <button>
+                        <img src="./img/triangulo.png"></img>
+                        <div>
+                            <h3>GET IT ON</h3>
+                            <h2>Clay Store</h2>
+                        </div>
+                    </button>
+                    <button>
+                        <img src="./img/appStoreLogo.png"></img>
+                        <div>
+                            <h3>Download on the</h3>
+                            <h2>Play App</h2>
+                        </div>
+                    </button>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="registro">
+
+            <div id="registro-driver">
+                <div>
+                    <h1>Register to be a driver partner</h1>
+                    <img src="./img/linha-reta-teste-programador.png.jpg"></img>
+                </div>
+
+                <div class="setas">
+                    <img src="./img/setas-teste-programador.png"></img>
+                </div>
+            </div>
+
+            <div id="registro-passenger">
+                <div>
+                    <h1>Register to start your journey</h1>
+                    <img src="./img/linha-reta-teste-programador.png.jpg"></img>
+                </div>
+
+                <div class="setas">
+                    <img src="./img/setas-teste-programador.png"></img>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="footer">
+
+            <img id="fundoFooter" src="./img/fundo-footer-teste-programador.png.jpg"></img>
+
+            <footer class="conteudoFooter">
+                <div class="secoesFooter">
+                    <div id="ajuda">
+                        <img src="./img/logo-teste-programador.png"></img>
+
+                        <div class="interrogacao">
+                            <img id="interrogacao" src="./img/icones/iconInterrogacao.png"></img>
+                            <button>Resolution center</button>
+                        </div>
+
+                        <div class="balao">
+                            <img id="balao" src="./img/icones/iconBalao.png"></img>
+                            <button onclick="mudarIdioma('pt')" id="idiomaBotao"><span
+                                    id="textoBotao">English</span></button>
+                        </div>
+                    </div>
+
+                    <div id="sobre">
+                        <h1>About Us</h1>
+                        <button>Newsroom</button>
+                        <button>Investor relations</button>
+                        <button>Global citizenship</button>
+                        <button>Safety</button>
+                        <button>Blog</button>
+                        <button>Career</button>
+                    </div>
+
+                    <div id="produto">
+                        <h1>Our Product</h1>
+                        <button>Take a trip</button>
+                        <button>Drive it</button>
+                        <button>Eats</button>
+                        <button>DriveOn for Business</button>
+                        <button>DriveOn freight</button>
+                        <button>Health</button>
+                        <button>DriveOn Air</button>
+                        <button>Advanced Technologies Group</button>
+                    </div>
+                </div>
+
+                <div class="social">
+
+                    <div id="linha"></div>
+                    <div class="redes">
+                        <h5>©️ 2019 DriveOn Technologies Inc.</h5>
+
+                        <div class="icones">
+                            <a href="https://www.facebook.com/agenciatupiniquim.com.br" target="_blank">
+                                <img src="./img/icones/iconFacebook.png" alt="Facebook"></img>
+                            </a>
+
+                            <a href="https://www.twitter.com" target="_blank">
+                                <img src="./img/icones/iconX.png" alt="X"></img>
+                            </a>
+
+                            <a href="https://www.youtube.com/c/tupiniquim?themeRefresh=1" target="_blank">
+                                <img src="./img/icones/iconYoutube.png" alt="Youtube"></img>
+                            </a>
+
+                            <a href="https://www.instagram.com/agenciatupiniquim/" target="_blank">
+                                <img src="./img/icones/iconInstagram.png" alt="Instagram">
+                            </a>
+
+                            <a href="https://www.linkedin.com/company/agenciatupiniquim" target="_blank">
+                                <img src="./img/icones/iconLinkedin.png" alt="LinkedIn">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </footer>
+        </section>
+
+        <button onclick="voltarTopo()" id="botaoTopo" src="./img/icones/botaoTopo.png"></button>
+
+    </main>
+
+    <script src="./js/funcoes.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="./css/acesso.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/page.css">
+    <link rel="stylesheet" href="./css/responsive-animations.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <nav class="barraNavegacao">
+        <img id="logo" onclick="acessarPagina('index')" src="./img/logo-teste-programador.png"></img>
+
+        <div class="login">
+            <img src="./img/icone-login-teste-programador.png"></img>
+            <button onclick="acessarPagina('login')" id="textLogin">Log in</button>
+            <button id="textSignUp">Sign Up</button>
+        </div>
+    </nav>
+
+
+    <div class="telaLogin">
+
+        <form id="form" onsubmit="return validar('Cadastro')">
+
+            <img src="./img/logo-teste-programador.png"></img>
+
+            <h1 class="textoAcesso">Sign up</h1>
+
+            <div>
+                <label for="name"></label>
+                <input type="text" name="name" id="name" placeholder="Name" pattern="[A-Za-zÀ-ú ']{4,}" required>
+            </div>
+            <div>
+                <label for="email"></label>
+                <input type="email" id="email" placeholder="Email" required>
+            </div>
+
+            <div>
+                <label for="password"></label>
+                <input type="password" name="password" id="password" placeholder="Password" minlength="8" required>
+            </div>
+
+            <div>
+                <label for="cpf"></label>
+                <input type="text" id="cpf" placeholder="CPF" pattern="[0-9]{11,11}" required>
+            </div>
+
+            <select id="escolha" name="escolha" required>
+                <option value="" selected disabled>Type of registration</option>
+                <option value="opcao1">Driver</option>
+                <option value="opcao2">Passenger</option>
+            </select>
+
+            <div>
+                <button type="submit" form="form" class="btn btn-primary">Register</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="./js/funcoes.js"></script>
+</body>
+
+</html>

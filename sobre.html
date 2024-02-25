@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="stylesheet" href="./css/acesso.css">
+    <link rel="stylesheet" href="./css/page.css">
+    <link rel="stylesheet" href="./css/responsive-animations.css">
+</head>
+
+<body>
+    <div class="DriveOn">
+
+        <nav class="barraNavegacao">
+
+            <img id="logo" onclick="acessarPagina('index')" src="./img/logo-teste-programador.png"></img>
+
+            <div class="menu-Hamburguer">&#9776;</div>
+
+            <div class="menu-items">
+                <button id="drivers" class="menu-item" onclick="acessarPagina('drivers', this)">
+                    <span>Drivers</span>
+                </button>
+                <button id="passengers" class="menu-item" onclick="acessarPagina('passengers', this)">
+                    <span>Passengers</span>
+                </button>
+                <button id="about" class="menu-item" onclick="acessarPagina('about', this)">
+                    <span>About Us</span>
+                </button>
+                <button id="contact" class="menu-item" onclick="acessarPagina('contact', this)">
+                    <span>Contact</span>
+                </button>
+            </div>
+
+            <div class="login">
+                <img src="./img/icone-login-teste-programador.png"></img>
+                <button onclick="acessarPagina('login')" id="textLogin">Log in</button>
+                <button onclick="acessarPagina('cadastro')" id="textSignUp">Sign Up</button>
+            </div>
+        </nav>
+
+        <div class="alerta">
+            <img id="exclamacao" src="./img//icones/exclamacao.png"></img>
+            <h1>Under construction!</h1>
+            <h5>This page is currently under construction.</h5>
+
+            <buttonm id="botaoHome" onclick="acessarPagina('index')">Go Back</button>
+        </div>
+
+
+    </div>
+    <script src="./js/funcoes.js"></script>
+
+</body>
+
+</html>

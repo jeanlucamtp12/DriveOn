@@ -1,5 +1,5 @@
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* Rolagem suave ao voltar ao topo da tela (testei e não funciona no modo desempenho do windows) */
 }
 
 body {

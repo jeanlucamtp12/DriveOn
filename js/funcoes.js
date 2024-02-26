@@ -72,7 +72,7 @@ window.addEventListener('scroll', function () {
         );
     }
 
-    // Adiciona a animação de rolagem, caso a section esteja sendo exibido na tela do usuario
+    // Adiciona a animação de rotação, caso a section esteja sendo exibido na tela do usuario
 
     const section = document.querySelector('.registro');
     if (sectionVisivel(section)) {
@@ -160,7 +160,7 @@ function verificaIdioma(textoBotao) {
     }
 }
 
-// Função para alterar a linguagem dos textos do site.
+// Função para alterar o idioma do site.
 
 function mudarIdioma(idioma) {
     if (idioma === 'pt') {
